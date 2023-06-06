@@ -1,38 +1,52 @@
-.App {
+body {
+  background-color: #b3e5fc;
+  border-radius: 10px;
+  font-family: "Raleway", sans-serif;
+}
+
+h2 {
   text-align: center;
+  margin: 20px 0;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.textLeft {
+  text-align: left;
+  margin-left: 20px;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.card {
+  width: 450px;
+  border: none;
+  border-radius: 10px;
+  background-color: #fff;
+  margin: auto;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.image {
+  min-width: 155px;
+  margin-right: 20px;
 }
 
-.App-link {
-  color: #61dafb;
+.stats {
+  background: #f2f5f8;
+  color: #000 !important; 
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.show-id {
+  font-size: 10px;
+  color: #a1aab9;
 }
+
+.number1 {
+  font-weight: 600;
+}
+
+.type {
+  font-size: 10px;
+  color: #a1aab9;
+}
+
+.number2 {
+  font-weight: 600;
+}
+
