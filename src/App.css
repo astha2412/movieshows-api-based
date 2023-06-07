@@ -15,7 +15,7 @@ h2 {
 }
 
 .card {
-  width: 450px;
+  width: 100%;
   border: none;
   border-radius: 10px;
   background-color: #fff;
@@ -23,7 +23,7 @@ h2 {
 }
 
 .image {
-  min-width: 155px;
+  min-width: 35%;
   margin-right: 20px;
 }
 
